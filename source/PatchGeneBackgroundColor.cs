@@ -95,8 +95,18 @@ namespace RandomsGeneAssistant
 
         [HarmonyPatch(typeof(GeneUIUtility), "DrawGeneBasics")]
         [HarmonyPrefix]
+#if RIMWORLD_1_7
+        public static void DrawGeneBasics_Prefix(GeneDef gene, Rect geneRect, GeneType geneType, ref bool doBackground, bool clickable, bool overridden)
+#else
         public static void DrawGeneBasics_Prefix(Gene gene, Rect geneRect, GeneType geneType, ref bool doBackground, bool clickable, bool overridden)
+#endif
         {
+#if RIMWORLD_1_7
+            GeneDef geneDef = gene;
+#else
+            GeneDef geneDef = gene.def;
+#endif
+
             //  Early returns
             if (!doBackground) { return; }
             Map map = Find.CurrentMap;
@@ -109,7 +119,7 @@ namespace RandomsGeneAssistant
             //  Init tracking vars
             int findQuality = 0;
 
-            if (SettingsRef.ignoredGenes.Contains(gene.def))
+            if (SettingsRef.ignoredGenes.Contains(geneDef))
             {
                 findQuality = -1;
             }
@@ -125,7 +135,7 @@ namespace RandomsGeneAssistant
                         //  Scan each gene
                         foreach (GeneDef g in gp.GeneSet.GenesListForReading)
                         {
-                            if (g.ToString() == gene.def.ToString())
+                            if (g == geneDef)
                             {
                                 findQuality = gp.GeneSet.GenesListForReading.Count == 1 ? 2 : 1;
                             }

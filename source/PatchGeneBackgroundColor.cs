@@ -10,6 +10,7 @@ namespace RandomsGeneAssistant
     [HarmonyPatch]
     public static class PatchGeneBackgroundColor
     {
+#if !RIMWORLD_1_7
         [HarmonyPatch(typeof(GeneUIUtility), nameof(GeneUIUtility.DrawGene))]
         [HarmonyPrefix]
         public static void DrawGene_Prefix(Gene gene, Rect geneRect, GeneType geneType, ref bool doBackground, bool clickable = true)
@@ -92,6 +93,7 @@ namespace RandomsGeneAssistant
             //  Override the previous background
             doBackground = false;
         }
+#endif
 
         [HarmonyPatch(typeof(GeneUIUtility), "DrawGeneBasics")]
         [HarmonyPrefix]
@@ -107,8 +109,16 @@ namespace RandomsGeneAssistant
             GeneDef geneDef = gene.def;
 #endif
 
-            //  Early returns
+            // RimWorld 1.7 passes doBackground=false for genes in the xenogerm
+            // selection panel. Those entries still need the ownership colors.
+#if !RIMWORLD_1_7
             if (!doBackground) { return; }
+            bool drawOwnershipBackground = doBackground;
+#else
+            bool drawOwnershipBackground = true;
+#endif
+
+            //  Early returns
             Map map = Find.CurrentMap;
             if (map == null || !map.IsPlayerHome) { return; }
 
@@ -160,7 +170,7 @@ namespace RandomsGeneAssistant
             //  Draw our own background
             GUI.BeginGroup(geneRect);
             Rect rect1 = geneRect.AtZero();
-            if (doBackground)
+            if (drawOwnershipBackground)
             {
                 Color c = SettingsRef.red;
                 if (findQuality == 1)

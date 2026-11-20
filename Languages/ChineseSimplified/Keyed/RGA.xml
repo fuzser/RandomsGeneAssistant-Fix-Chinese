@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <RGA_SettingsCategory>Random's Gene Assistant：1.7 修复与汉化</RGA_SettingsCategory>
+  <RGA_SettingsCategory>Random's Gene Assistant - 1.7 修复与汉化</RGA_SettingsCategory>
   <RGA_OverrideXenogermSorting>覆盖异种胚芽排序</RGA_OverrideXenogermSorting>
   <RGA_OverrideXenogermSortingDesc>在基因组装器菜单中，按基因包中影响最大的基因排序，而不是只按第一个基因排序。</RGA_OverrideXenogermSortingDesc>
   <RGA_SortSingleGenesFirst>单基因包优先</RGA_SortSingleGenesFirst>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <RGA_SettingsCategory>Random's Gene Assistant: Fix &amp; Chinese Translation</RGA_SettingsCategory>
+  <RGA_SettingsCategory>Random's Gene Assistant - Fix &amp; Chinese Translation</RGA_SettingsCategory>
   <RGA_OverrideXenogermSorting>Override xenogerm sorting</RGA_OverrideXenogermSorting>
   <RGA_OverrideXenogermSortingDesc>Sorts the genes in the gene assembler menu by the most impactful gene in a set, rather than the first gene.</RGA_OverrideXenogermSortingDesc>
   <RGA_SortSingleGenesFirst>Sort single genes first</RGA_SortSingleGenesFirst>

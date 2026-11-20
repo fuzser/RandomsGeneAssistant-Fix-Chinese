@@ -1,8 +1,9 @@
-# Random's Gene Assistant：1.7 修复与汉化
+# Random's Gene Assistant - 1.7 修复与汉化
 
 - 原作者：**RandomCoughdrop**
 - RimWorld 1.7 修复与简体中文汉化：**WorldLeader**
 - 基于原作项目：[RandomsGeneAssistant](https://github.com/TedStumpf/RandomsGeneAssistant)
+- Package ID：`worldleader.randomsgeneassistant.fixchinese`
 
 ## 功能
 

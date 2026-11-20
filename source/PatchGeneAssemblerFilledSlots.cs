@@ -33,7 +33,7 @@ namespace RandomsGeneAssistant
                 }
             }
 
-            __result += "\nFilled Slots: " + filled + "/" + total;
+            __result += "\n" + "RGA_FilledSlots".Translate(filled, total);
         }
     }
 }

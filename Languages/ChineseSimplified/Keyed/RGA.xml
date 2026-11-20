@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RGA_SettingsCategory>Random's Gene Assistant：1.7 修复与汉化</RGA_SettingsCategory>
+  <RGA_OverrideXenogermSorting>覆盖异种胚芽排序</RGA_OverrideXenogermSorting>
+  <RGA_OverrideXenogermSortingDesc>在基因组装器菜单中，按基因包中影响最大的基因排序，而不是只按第一个基因排序。</RGA_OverrideXenogermSortingDesc>
+  <RGA_SortSingleGenesFirst>单基因包优先</RGA_SortSingleGenesFirst>
+  <RGA_SortSingleGenesFirstDesc>在基因组装器中将只含一个基因的基因包排在前面。</RGA_SortSingleGenesFirstDesc>
+  <RGA_BackgroundSaturation>背景颜色饱和度：{0}%</RGA_BackgroundSaturation>
+  <RGA_AlternateColors>使用备用配色</RGA_AlternateColors>
+  <RGA_AlternateColorsDesc>启用另一套基因状态配色。</RGA_AlternateColorsDesc>
+  <RGA_SellFromGenebanks>允许从基因库出售</RGA_SellFromGenebanks>
+  <RGA_SellFromGenebanksDesc>允许不先弹出，直接出售基因库中的基因包。</RGA_SellFromGenebanksDesc>
+  <RGA_ViewLibrary>查看基因库</RGA_ViewLibrary>
+  <RGA_ViewLibraryDesc>打开基因库总览。</RGA_ViewLibraryDesc>
+  <RGA_GeneLibrary>基因库</RGA_GeneLibrary>
+  <RGA_Cancel>取消</RGA_Cancel>
+  <RGA_Ignore>忽略</RGA_Ignore>
+  <RGA_Allow>取消忽略</RGA_Allow>
+  <RGA_Cosmetic>外观基因</RGA_Cosmetic>
+  <RGA_Positive>正面基因</RGA_Positive>
+  <RGA_Negative>负面基因</RGA_Negative>
+  <RGA_Archite>原始基因</RGA_Archite>
+  <RGA_All>全部</RGA_All>
+  <RGA_SwitchVisibility>切换显示</RGA_SwitchVisibility>
+  <RGA_ShowAllGenes>显示全部基因</RGA_ShowAllGenes>
+  <RGA_HideFullyAcquiredGenes>隐藏已完整获取的基因</RGA_HideFullyAcquiredGenes>
+  <RGA_HideFullyAndPartiallyAcquiredGenes>隐藏已完整或部分获取的基因</RGA_HideFullyAndPartiallyAcquiredGenes>
+  <RGA_HideIgnoredGenes>隐藏已忽略的基因</RGA_HideIgnoredGenes>
+  <RGA_HideFullyAcquiredAndIgnoredGenes>隐藏已完整获取和已忽略的基因</RGA_HideFullyAcquiredAndIgnoredGenes>
+  <RGA_HideAllAcquiredAndIgnoredGenes>隐藏已完整获取、部分获取和已忽略的基因</RGA_HideAllAcquiredAndIgnoredGenes>
+  <RGA_SaveAndClose>保存并关闭</RGA_SaveAndClose>
+  <RGA_EjectGenepacks>弹出基因包</RGA_EjectGenepacks>
+  <RGA_EjectGenepacksDesc>弹出重复基因包以便出售，也可选择弹出外观基因包或多基因包。</RGA_EjectGenepacksDesc>
+  <RGA_EjectDuplicates>弹出重复基因包</RGA_EjectDuplicates>
+  <RGA_EjectCosmetic>弹出外观基因包</RGA_EjectCosmetic>
+  <RGA_EjectCombinedGenepacks>弹出多基因包</RGA_EjectCombinedGenepacks>
+  <RGA_NoDuplicateGenepacks>没有可弹出的重复基因包。</RGA_NoDuplicateGenepacks>
+  <RGA_NoCosmeticGenepacks>没有可弹出的外观基因包。</RGA_NoCosmeticGenepacks>
+  <RGA_NoCombinedGenepacks>没有可弹出的多基因包。</RGA_NoCombinedGenepacks>
+  <RGA_EjectedGenepacks>已弹出 {0} 个基因包。</RGA_EjectedGenepacks>
+  <RGA_FilledSlots>已占用槽位：{0}/{1}</RGA_FilledSlots>
+</LanguageData>

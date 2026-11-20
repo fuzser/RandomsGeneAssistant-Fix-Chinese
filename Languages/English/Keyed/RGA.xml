@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RGA_SettingsCategory>Random's Gene Assistant: Fix &amp; Chinese Translation</RGA_SettingsCategory>
+  <RGA_OverrideXenogermSorting>Override xenogerm sorting</RGA_OverrideXenogermSorting>
+  <RGA_OverrideXenogermSortingDesc>Sorts the genes in the gene assembler menu by the most impactful gene in a set, rather than the first gene.</RGA_OverrideXenogermSortingDesc>
+  <RGA_SortSingleGenesFirst>Sort single genes first</RGA_SortSingleGenesFirst>
+  <RGA_SortSingleGenesFirstDesc>Sorts single genes to be first in the gene assembler.</RGA_SortSingleGenesFirstDesc>
+  <RGA_BackgroundSaturation>Background saturation: {0}%</RGA_BackgroundSaturation>
+  <RGA_AlternateColors>Alternate colors</RGA_AlternateColors>
+  <RGA_AlternateColorsDesc>Activates an alternate color scheme.</RGA_AlternateColorsDesc>
+  <RGA_SellFromGenebanks>Sell from genebanks</RGA_SellFromGenebanks>
+  <RGA_SellFromGenebanksDesc>Allows selling genepacks directly from genebanks.</RGA_SellFromGenebanksDesc>
+  <RGA_ViewLibrary>View library</RGA_ViewLibrary>
+  <RGA_ViewLibraryDesc>Open the gene library.</RGA_ViewLibraryDesc>
+  <RGA_GeneLibrary>Gene library</RGA_GeneLibrary>
+  <RGA_Cancel>Cancel</RGA_Cancel>
+  <RGA_Ignore>Ignore</RGA_Ignore>
+  <RGA_Allow>Allow</RGA_Allow>
+  <RGA_Cosmetic>Cosmetic</RGA_Cosmetic>
+  <RGA_Positive>Positive</RGA_Positive>
+  <RGA_Negative>Negative</RGA_Negative>
+  <RGA_Archite>Archite</RGA_Archite>
+  <RGA_All>All</RGA_All>
+  <RGA_SwitchVisibility>Switch visibility</RGA_SwitchVisibility>
+  <RGA_ShowAllGenes>Show all genes</RGA_ShowAllGenes>
+  <RGA_HideFullyAcquiredGenes>Hide fully acquired genes</RGA_HideFullyAcquiredGenes>
+  <RGA_HideFullyAndPartiallyAcquiredGenes>Hide fully and partially acquired genes</RGA_HideFullyAndPartiallyAcquiredGenes>
+  <RGA_HideIgnoredGenes>Hide ignored genes</RGA_HideIgnoredGenes>
+  <RGA_HideFullyAcquiredAndIgnoredGenes>Hide fully acquired and ignored genes</RGA_HideFullyAcquiredAndIgnoredGenes>
+  <RGA_HideAllAcquiredAndIgnoredGenes>Hide fully, partially acquired and ignored genes</RGA_HideAllAcquiredAndIgnoredGenes>
+  <RGA_SaveAndClose>Save and close</RGA_SaveAndClose>
+  <RGA_EjectGenepacks>Eject genepacks</RGA_EjectGenepacks>
+  <RGA_EjectGenepacksDesc>Ejects duplicate genepacks for easier selling. Also provides options to eject cosmetic or combined genepacks.</RGA_EjectGenepacksDesc>
+  <RGA_EjectDuplicates>Eject duplicates</RGA_EjectDuplicates>
+  <RGA_EjectCosmetic>Eject cosmetic genepacks</RGA_EjectCosmetic>
+  <RGA_EjectCombinedGenepacks>Eject combined genepacks</RGA_EjectCombinedGenepacks>
+  <RGA_NoDuplicateGenepacks>No duplicate genepacks.</RGA_NoDuplicateGenepacks>
+  <RGA_NoCosmeticGenepacks>No cosmetic genepacks.</RGA_NoCosmeticGenepacks>
+  <RGA_NoCombinedGenepacks>No combined genepacks.</RGA_NoCombinedGenepacks>
+  <RGA_EjectedGenepacks>Ejected {0} genepacks.</RGA_EjectedGenepacks>
+  <RGA_FilledSlots>Filled slots: {0}/{1}</RGA_FilledSlots>
+</LanguageData>

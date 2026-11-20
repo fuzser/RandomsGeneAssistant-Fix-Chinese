@@ -59,14 +59,14 @@ namespace RandomsGeneAssistant
         {
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
-            listingStandard.CheckboxLabeled("Override xenogerm sorting", ref settings.overrideSorting, "Sorts the genes in the gene assembler menu by the most impactful gene in a set, rather than the first gene.");
-            listingStandard.CheckboxLabeled("Sort single genes first", ref settings.singlesFirst, "Sorts single genes to be first in the gene assembler.");
+            listingStandard.CheckboxLabeled("RGA_OverrideXenogermSorting".Translate(), ref settings.overrideSorting, "RGA_OverrideXenogermSortingDesc".Translate());
+            listingStandard.CheckboxLabeled("RGA_SortSingleGenesFirst".Translate(), ref settings.singlesFirst, "RGA_SortSingleGenesFirstDesc".Translate());
 
-            listingStandard.Label($"Background Saturation: {(int) Math.Round(settings.backgroundSaturation * 100)}%");
+            listingStandard.Label("RGA_BackgroundSaturation".Translate((int)Math.Round(settings.backgroundSaturation * 100)));
             settings.backgroundSaturation = listingStandard.Slider(settings.backgroundSaturation, 0f, 1f);
 
-            listingStandard.CheckboxLabeled("Alternate colors", ref settings.overrideColors, "Activates an alternate color scheme.");
-            listingStandard.CheckboxLabeled("Sell from genebanks", ref settings.sellFromGeneBanks, "Allows selling genepacks directly from genebanks.");
+            listingStandard.CheckboxLabeled("RGA_AlternateColors".Translate(), ref settings.overrideColors, "RGA_AlternateColorsDesc".Translate());
+            listingStandard.CheckboxLabeled("RGA_SellFromGenebanks".Translate(), ref settings.sellFromGeneBanks, "RGA_SellFromGenebanksDesc".Translate());
 
             listingStandard.End();
             base.DoSettingsWindowContents(inRect);
@@ -74,7 +74,7 @@ namespace RandomsGeneAssistant
 
         public override string SettingsCategory()
         {
-            return "Random's Gene Assistant";
+            return "RGA_SettingsCategory".Translate();
         }
 
         public static bool ToggleGeneIgnore(GeneDef gene)

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FastGames\\steamapps\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj": {}
+    "C:\\Program Files\\Steam\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj": {}
   },
   "projects": {
-    "C:\\FastGames\\steamapps\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj": {
+    "C:\\Program Files\\Steam\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FastGames\\steamapps\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj",
+        "projectUniqueName": "C:\\Program Files\\Steam\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj",
         "projectName": "RandomsGeneAssistant",
-        "projectPath": "C:\\FastGames\\steamapps\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj",
-        "packagesPath": "C:\\Users\\Theodore Stumpf\\.nuget\\packages\\",
-        "outputPath": "C:\\FastGames\\steamapps\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\obj\\",
+        "projectPath": "C:\\Program Files\\Steam\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\RandomsGeneAssistant.csproj",
+        "packagesPath": "C:\\Users\\Theodore\\.nuget\\packages\\",
+        "outputPath": "C:\\Program Files\\Steam\\steamapps\\common\\RimWorld\\Mods\\RandomsGeneAssistant\\source\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Theodore Stumpf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Theodore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net472": {
@@ -45,7 +55,7 @@
               "version": "[2.2.2, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
